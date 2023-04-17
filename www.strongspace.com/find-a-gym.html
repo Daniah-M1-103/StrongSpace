@@ -72,7 +72,6 @@
         <div class="row">
             <div class="col-12">
                 <div class="header-nav-wrapper">
-                        <button type="button" class="primary-search-trigger" title="Search">Search</button>
                         <nav id="header-nav">
                             <ul class="header-nav-links">
                                     <li>
@@ -90,7 +89,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="logo-wrapper">
-                        <a href="index.html" title="Home" class="logo"></a>
+                        <a href="fitness-classes.html" title="Home" class="logo"></a>
                     </div>
                         <div class="primary-nav-wrapper">
         <button type="button" id="primary-nav-trigger" aria-label="Navigation">
@@ -215,7 +214,7 @@
     <div id="club-search" x-ref="clubsearch" data-sticky-for="992" data-sticky data-sticky-wrap="true" :data-margin-top="document.getElementById('header')?.offsetHeight ?? 0" data-sticky-class="sticky">
         <div class="search-form-wrapper">
             <form :disabled="working" x-on:submit.prevent="search()" action="https://www.fitnessfirst.co.uk/" class="search-form search-form-speach-to-text">
-                <input type="text" name="keyword" placeholder="Enter your postcode" class="search-form-input" x-model="query.location">
+                <input type="text" name="keyword" placeholder="Enter your Locaton" class="search-form-input" x-model="query.location">
                 <img src="images/custom/svg/loader.svg" alt="Loading" class="loading" x-show="working" />
                 <button type="button" class="search-form-location" title="Get Location" @click.prevent="geoSearch()"></button>
                 <button type="button" class="search-form-microphone visually-hidden" title="Microphone">Microphone</button>
@@ -1648,8 +1647,6 @@
                             <span class="col-12 col-md-auto me-1 mb-1 mb-md-0">Accepted Payments:</span>
                                 <span class="me-1"><img src="media/tzmoh2fg/visa64b2.svg?height=64&amp;rnd=133018791700330000" alt="Visa" title="Visa" /></span>
                                 <span class="me-1"><img src="media/brhjasca/mastercard7049.svg?height=64&amp;rnd=133018793873100000" alt="Mastercard" title="Mastercard" /></span>
-                                <span class="me-1"><img src="media/0vuppgvd/american-expresscbba.svg?height=64&amp;rnd=133018794629800000" alt="AMEX" title="AMEX" /></span>
-                                <span class="me-1"><img src="media/pnjbyxmo/klarna-badge7efc.svg?height=64&amp;rnd=132956354488930000" alt="Klarna" title="Klarna" /></span>
                         </div>
                     </div>
                 </div>
